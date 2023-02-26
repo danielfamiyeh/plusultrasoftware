@@ -46,6 +46,7 @@ const Experience = () => {
           <div className="my-2">
             {experience.responsibilities.map((responsibility, i) => (
               <p
+                className="text-sm"
                 key={`experience-${selectedExperienceIdx}-responsibility-${i}`}
               >
                 - {responsibility}
