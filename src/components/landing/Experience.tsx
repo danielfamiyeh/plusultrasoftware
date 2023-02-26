@@ -1,4 +1,3 @@
-import moment from 'moment';
 import Image from 'next/image';
 import { useMemo, useState } from 'react';
 
@@ -16,9 +15,13 @@ const Experience = () => {
   return (
     <div
       style={styles.container}
-      className="Experience bg-[whitesmoke] py-[48px] flex items-center justify-center"
+      className="Experience bg-[whitesmoke] py-[48px] flex items-center justify-center flex-col"
     >
-      <div className="border-2 flex flex-col-reverse md:flex-row bg-[#4C4848] p-8 rounded-md drop-shadow-lg">
+      <div className="w-screen mb-4 px-4">
+        <h2 className="text-xl font-bold">Experience</h2>
+        <hr />
+      </div>
+      <div className="border-2 grow flex flex-col-reverse md:flex-row bg-[#4C4848] p-8 rounded-md drop-shadow-lg">
         <div className="flex flex-row md:flex-col flex-wrap items-center justify-center">
           {experiences.map(({ logo, company }, i) => (
             <Image

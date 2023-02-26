@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import logo from '@/assets/logo/logo_text.png';
 
-const headerTitles = ['About', 'Experience', 'Projects', 'Contact'];
+const headerTitles = ['About', 'Experience', 'Projects'];
 
 const Header = () => {
   const onClickHeaderButton = (e: any, title: string) => {
