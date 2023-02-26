@@ -12,7 +12,7 @@ const Header = () => {
     containerElem?.scrollIntoView({ behavior: 'smooth' });
   };
   return (
-    <header className="fixed flex px-4 bg-[#4C4848] w-screen h-[48px] items-center justify-between z-10">
+    <header className="fixed flex px-4 bg-[#4C4848] w-screen h-[48px] items-center justify-between z-10 border-b-2 border-b-[rgba(128,128,128,0.7)]">
       <Image src={logo} height={16} alt="Logo" className="self-center" />
       <div className="hidden md:flex">
         {headerTitles.map((title) => (
