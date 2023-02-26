@@ -37,7 +37,7 @@ const Experience = () => {
           ))}
         </div>
         <div className="md:hidden h-[1px] bg-[whitesmoke] w-[100%] mt-4 mb-2" />
-        <div className="text-white px-8">
+        <div className="text-white px-8 w-[480px] md:w-[540px]">
           <h2 className="font-bold text-2xl">{experience.company}</h2>
           <p className="font-extralight">{experience.position}</p>
           <div className="my-2">
