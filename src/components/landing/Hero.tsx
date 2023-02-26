@@ -19,6 +19,11 @@ const Hero = () => {
         </p>
         <p>Software solutions that go further beyond 🚀</p>
         <hr />
+        <div>
+          {heroDescription.map((desc, i) => {
+            return <p key={`hero-description-${i}`}>{desc}</p>;
+          })}
+        </div>
         <div className="flex">
           {links.map(({ name, icon, href }) => (
             <Link
@@ -36,6 +41,12 @@ const Hero = () => {
     </div>
   );
 };
+
+const heroDescription = [
+  'A seasoned software developer with over a decade of experience in a variety of programming languages and frameworks.',
+  'In recent years, I have worked on a range of projects, from business software to mobile apps for national-scale companies.',
+  'My goal is to deliver high-quality software that exceeds client expectations and drives business success.',
+];
 
 const links = [
   {
