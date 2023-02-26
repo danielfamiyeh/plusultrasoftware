@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import Hero from '@/components/landing/Hero';
+import Footer from '@/components/landing/Footer';
 import Header from '@/components/landing/Header';
 import Skills from '@/components/landing/Skills';
 import Divider from '@/components/landing/Divider';
@@ -28,6 +29,7 @@ export default function Home() {
         <Divider />
         <Experience />
         <Projects />
+        <Footer />
       </main>
     </>
   );

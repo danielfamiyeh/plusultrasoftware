@@ -2,8 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import logo from '@/assets/logo/logo_text.png';
-import githubIcon from '@/assets/vectors/github.svg';
-import linkedinIcon from '@/assets/vectors/linkedin.svg';
+import { socialLinks } from '@/utils/constants/socialLinks';
 
 const Hero = () => {
   return (
@@ -25,7 +24,7 @@ const Hero = () => {
           })}
         </div>
         <div className="flex">
-          {links.map(({ name, icon, href }) => (
+          {socialLinks.map(({ name, icon, href }) => (
             <Link
               href={href}
               className="filter invert hover:opacity-75 active:opacity-50"
@@ -46,19 +45,6 @@ const heroDescription = [
   'A seasoned software developer with over a decade of experience in a variety of programming languages and frameworks.',
   'In recent years, I have worked on a range of projects, from business software to mobile apps for national-scale companies.',
   'My goal is to deliver high-quality software that exceeds client expectations and drives business success.',
-];
-
-const links = [
-  {
-    name: 'github',
-    icon: githubIcon,
-    href: 'https://github.com/danielfamiyeh',
-  },
-  {
-    name: 'linkedin',
-    icon: linkedinIcon,
-    href: 'https://linkedin.com/in/daniel-k-famiyeh',
-  },
 ];
 
 const styles = {
