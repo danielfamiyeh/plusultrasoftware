@@ -8,18 +8,18 @@ import linkedinIcon from '@/assets/vectors/linkedin.svg';
 const Hero = () => {
   return (
     <div
-      className="h-screen pt-[48px] flex flex-col text-white"
+      className="pt-[48px] flex items-center text-white"
       style={styles.container}
     >
-      <div className="w-screen grow p-8 flex- flex-col">
-        <Image src={logo} height={96} alt="Logo" className="self-center" />
-        <p>/plʌs &apos;ʌltrə/</p>
-        <p>
-          <i>noun</i>
-        </p>
-        <p>Software solutions that go further beyond 🚀</p>
+      <div className="w-screen p-8 flex flex-col md:px-32">
+        <Image src={logo} height={96} alt="Logo" className="ml-[-8px]" />
+        <p className="font-thin">/plʌs &apos;ʌltrə/</p>
+
+        <i className="font-light">noun</i>
+
+        <p className="text-2xl">Software solutions that go further beyond 🚀</p>
         <hr />
-        <div>
+        <div className="my-6">
           {heroDescription.map((desc, i) => {
             return <p key={`hero-description-${i}`}>{desc}</p>;
           })}
@@ -68,6 +68,7 @@ const styles = {
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
+    minHeight: '100vh',
   },
 };
 
