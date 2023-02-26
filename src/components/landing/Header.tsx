@@ -1,4 +1,5 @@
 import Image from 'next/image';
+
 import logo from '@/assets/logo/logo_text.png';
 
 const headerTitles = ['About', 'Experience', 'Projects', 'Contact'];

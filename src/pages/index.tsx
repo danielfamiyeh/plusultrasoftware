@@ -1,8 +1,9 @@
 import Head from 'next/head';
-import { Inter } from 'next/font/google';
 
 import Hero from '@/components/landing/Hero';
 import Header from '@/components/landing/Header';
+import Skills from '@/components/landing/Skills';
+import Divider from '@/components/landing/Divider';
 
 export default function Home() {
   return (
@@ -15,7 +16,11 @@ export default function Home() {
       </Head>
       <main>
         <Header />
+
         <Hero />
+        <Divider />
+        <Skills />
+        <Divider />
       </main>
     </>
   );
