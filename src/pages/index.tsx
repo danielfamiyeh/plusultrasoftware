@@ -4,6 +4,7 @@ import Hero from '@/components/landing/Hero';
 import Header from '@/components/landing/Header';
 import Skills from '@/components/landing/Skills';
 import Divider from '@/components/landing/Divider';
+import Experience from '@/components/landing/Experience';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Divider />
         <Skills />
         <Divider />
+        <Experience />
       </main>
     </>
   );

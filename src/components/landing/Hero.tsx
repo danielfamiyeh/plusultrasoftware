@@ -8,7 +8,7 @@ import linkedinIcon from '@/assets/vectors/linkedin.svg';
 const Hero = () => {
   return (
     <div
-      className="pt-[48px] flex items-center text-white"
+      className="About pt-[48px] flex items-center text-white"
       style={styles.container}
     >
       <div className="w-screen p-8 flex flex-col md:px-32">
