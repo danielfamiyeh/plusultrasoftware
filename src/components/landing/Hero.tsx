@@ -17,9 +17,9 @@ const Hero = () => {
 
         <i className="font-light">noun</i>
 
-        <p className="text-2xl">Software solutions that go further beyond 🚀</p>
-        <hr />
-        <div className="my-6">
+        <p className="text-2xl">Software solutions that go further beyond</p>
+        <hr className="my-2" />
+        <div className="my-4">
           {heroDescription.map((desc, i) => {
             return <p key={`hero-description-${i}`}>{desc}</p>;
           })}
