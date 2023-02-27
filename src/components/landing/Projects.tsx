@@ -40,7 +40,7 @@ const Projects = () => {
               {project.skills.map((skill) => (
                 <li
                   key={`${project._id}-${skill}`}
-                  className="flex flex-col items-center"
+                  className="flex flex-col items-center m-4"
                 >
                   <Image
                     src={techLogos[skill as keyof typeof techLogos]}
