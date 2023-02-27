@@ -57,7 +57,7 @@ const Experience = () => {
             {experience.skills.map((skill, i) => (
               <li
                 key={`${experience.company}-${skill}`}
-                className="flex flex-col items-center"
+                className="flex flex-col items-center m-2"
               >
                 <Image
                   src={techLogos[skill as keyof typeof techLogos]}
@@ -65,7 +65,7 @@ const Experience = () => {
                   height={48}
                   width={48}
                 />
-                <p className="m-4 text-sm font-bold">
+                <p className="mt-2 text-sm font-bold">
                   {techTitles[skill as keyof typeof techTitles]}
                 </p>
               </li>
