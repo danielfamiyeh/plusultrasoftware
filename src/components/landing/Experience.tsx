@@ -40,7 +40,7 @@ const Experience = () => {
           ))}
         </div>
         <div className="md:hidden h-[1px] bg-[whitesmoke] w-[100%] mt-4 mb-2" />
-        <div className="text-white px-8 w-screen md:w-[540px] flex flex-col justify-center">
+        <div className="text-white px-8 md:w-[540px] flex flex-col justify-center">
           <h2 className="font-bold text-2xl">{experience.company}</h2>
           <p className="font-extralight">{experience.position}</p>
           <div className="my-2">
@@ -58,7 +58,7 @@ const Experience = () => {
             {experience.skills.map((skill, i) => (
               <li
                 key={`${experience.company}-${skill}`}
-                className="flex flex-col items-center"
+                className="flex flex-col items-center m-2"
               >
                 <Image
                   src={techLogos[skill as keyof typeof techLogos]}
@@ -66,7 +66,7 @@ const Experience = () => {
                   height={48}
                   width={48}
                 />
-                <p className="mt-2 text-sm">
+                <p className="mt-2 text-sm font-bold">
                   {techTitles[skill as keyof typeof techTitles]}
                 </p>
               </li>
