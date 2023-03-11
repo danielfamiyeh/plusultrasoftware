@@ -1,0 +1,54 @@
+/**
+* Color scheme
+* 
+* The custom colour scheme can be set in this file. There are 2 shades used within this file; one for the main area including buttons and another for the table header background only.
+*
+* Main style - buttons = #006078;
+* Sub style - table header = green;
+*
+*/
+
+/**
+* Main scheme
+*/
+.aip_help a, .aip_cancel a, .aip_framework_selection a, .aip_selection_item li a, .aip_selection_item select, div.aip_payment_for, .aip_button, #aip_cart_edit_link, #aip_cart_remove_link, .aip_cr_see_detail_tag, .aip_cr_edit_tag, .aip_cr_cart_all a, .aip_delete_item, .aip_cart a, .aip_portal_submit {
+	background-color: #006078 !important;
+}
+
+.aip_selection_item li a {
+	color: #FFF !important;
+	}
+
+.aip_header_title {
+	border-bottom-color: #006078 !important;
+}
+
+.aip_control_style input, .aip_control_style textarea {
+	border: 3px solid #006078 !important;
+}
+
+/* Item selection breadcrumb scheme */
+a.aip_breadcrumb_root_item_label, a.aip_breadcrumb_node_item_label {
+	background-color: #006078 !important;
+}
+
+/* Item selection segment 2 scheme */
+li.aip_hierarchy_link_2 a {
+	background-color: #006078 !important;
+}
+
+/**
+* Sub scheme
+*/
+.aip_table th.aip_cart_header, .aip_table th.aip_cr_header, .aip_table td.aip_cr_additional_balance, .aip_pa_table th.aip_pa_header, .aip_pa_payments dt.aip_pa_payment, .aip_receipt_table th.aip_receipt_header, .aip_receipt_payments dt.aip_receipt_payment {
+	background-color: green !important;
+}
+
+.aip_form_fieldset, #AIPForm, .aip_form {
+	width: 100%;
+	}
+	
+.aip_common_control_style, .aip_control_style {
+	text-align: left;
+	margin-left: 10px;
+	}

@@ -15,14 +15,14 @@ const Experience = () => {
   return (
     <div
       style={styles.container}
-      className="Experience bg-[whitesmoke] py-[48px] flex items-center justify-center flex-col"
+      className="Experience bg-[#474444] py-[48px] flex items-center justify-center flex-col text-black"
     >
       <div className="w-screen mb-4 px-4">
-        <h2 className="text-xl font-bold">Experience</h2>
+        <h2 className="text-xl font-bold text-white">Experience</h2>
         <hr />
       </div>
-      <div className="border-2 grow flex flex-col-reverse md:flex-row bg-[#4C4848] p-8 rounded-md drop-shadow-lg">
-        <div className="flex flex-row md:flex-col flex-wrap items-center justify-center">
+      <div className="grow flex flex-col-reverse md:flex-row bg-[whitesmoke] rounded-md drop-shadow-lg">
+        <div className="flex flex-row md:flex-col flex-wrap items-center justify-center bg-[#4C4848] p-8">
           {experiences.map(({ logo, company }, i) => (
             <Image
               className={
@@ -39,8 +39,8 @@ const Experience = () => {
             />
           ))}
         </div>
-        <div className="md:hidden h-[1px] bg-[whitesmoke] w-[100%] mt-4 mb-2" />
-        <div className="text-white px-8 md:w-[540px] flex flex-col justify-center">
+        <div className="md:hidden h-[1px] bg-[#4C4848] w-[100%] mt-4 mb-2" />
+        <div className="px-8 md:w-[540px] flex flex-col justify-center p-8">
           <h2 className="font-bold text-2xl">{experience.company}</h2>
           <p className="font-extralight">{experience.position}</p>
           <div className="my-2">

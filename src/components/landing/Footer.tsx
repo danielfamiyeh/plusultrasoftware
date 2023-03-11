@@ -5,7 +5,7 @@ import { socialLinks } from '@/utils/constants/socialLinks';
 
 const Footer = () => {
   return (
-    <footer className="h-[48px] border-t-2 border-t-[rgba(128,128,128,0.7)] flex items-center justify-between px-4 bg-[#4C4848] text-white">
+    <footer className="h-[48px] border-t-2 border-t-[rgba(128,128,128,0.1)] flex items-center justify-between px-4 bg-[#474444] text-white">
       <div>&copy;&nbsp;Plus Ultra Software Limited</div>
       <div className="flex">
         {socialLinks.map(({ name, icon, href }) => (
