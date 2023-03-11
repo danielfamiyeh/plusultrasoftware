@@ -15,7 +15,7 @@ const Experience = () => {
   return (
     <div
       style={styles.container}
-      className="Experience bg-[#474444] py-[48px] flex items-center justify-center flex-col"
+      className="Experience bg-[#474444] py-[48px] flex items-center justify-center flex-col text-black"
     >
       <div className="w-screen mb-4 px-4">
         <h2 className="text-xl font-bold text-white">Experience</h2>
@@ -40,7 +40,7 @@ const Experience = () => {
           ))}
         </div>
         <div className="md:hidden h-[1px] bg-[#4C4848] w-[100%] mt-4 mb-2" />
-        <div className="text-white px-8 md:w-[540px] flex flex-col justify-center text-black p-8">
+        <div className="px-8 md:w-[540px] flex flex-col justify-center p-8">
           <h2 className="font-bold text-2xl">{experience.company}</h2>
           <p className="font-extralight">{experience.position}</p>
           <div className="my-2">
