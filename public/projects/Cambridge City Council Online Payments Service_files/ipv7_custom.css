@@ -1,0 +1,84 @@
+/* Customer styling to fix page issues */
+.aip_form_fieldset {
+            border: none;
+			font-weight: normal;
+			margin-left: 0;
+}
+
+.aip_form_elements_fieldset {
+            border: none;
+			font-weight: normal;
+			margin-left: 0;
+			padding: 0;
+}
+
+.aip_legend {
+            display: none;
+}
+
+.aip_receipt_legend {
+            display: none;
+}
+
+li.aip_hierarchy_child_link {
+            padding-bottom: 0.6em;
+}
+
+.aip_cart_header, th.aip_cr_header, th.aip_pa_header, th.aip_receipt_header {
+            background-color: #d3cbb6;
+            font-weight: bold;
+}
+
+dt.aip_pa_payment, dt.aip_receipt_payment {
+            background-color: #d3cbb6;
+            margin-right: 1em;
+            margin-bottom: 0.1em;
+            width: 25%;
+            font-weight: bold;
+}
+
+.aip_label_style {
+            font-weight: bold;
+            width: 37%;
+}
+
+dt.aip_payment_for 
+{
+	font-weight: bold;
+	width: 37%;
+	float: left;
+}
+
+dd.aip_payment_for 
+{
+	font-weight: normal;
+}
+
+div.aip_receipt_payments {
+            margin-bottom: 1em;
+}
+
+.aip_receipt_form_fieldset {
+            border: none;
+}
+
+.aip_control_prefix {
+            font-weight: bold;
+}
+
+.aip_cart {
+            font-weight: bold;
+            font-size: 1.2em;
+}
+
+table.aip_pa_table {
+            width:100%;
+}
+
+table.aip_table > tbody > tr > th {
+            white-space: nowrap;
+}
+
+.aip_ext_link {
+            font-weight: bold;
+}

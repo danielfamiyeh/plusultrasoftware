@@ -1,0 +1,29 @@
+/* CSS Document */
+
+.Bold_text {
+	font-weight:bold;
+}
+
+.Underline_text {
+	text-decoration:underline;
+}
+
+.Italic_text {
+	font-style:italic;
+}
+
+.Black_text {
+	color:#000000;
+}
+
+.Red_text {
+	color:#FF0000;
+}
+
+.Green_text {
+	color:#00FF00;
+}
+
+.Blue_text {
+	color:#0000FF;
+}
